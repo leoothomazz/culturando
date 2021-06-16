@@ -1,0 +1,41 @@
+.menu-bg {
+    background: #000;
+    height: 80px;
+}
+
+.menu {    
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo {
+    margin: 10px 25px;    
+}
+
+.menu nav {
+    margin: 10px 25px;
+}
+
+.menu-nav ul {
+    display: flex;
+}
+
+.menu-nav ul li a {        
+    margin-right: 20px;
+    color: #00e7f9;
+    font-weight: bold;
+}
+
+.link-border {
+    border: 1px solid #00e7f9;
+    border-radius: 5%;
+    padding: 10px 20px;    
+}
+
+.possuo-conta a {
+    color: #fff;
+}
