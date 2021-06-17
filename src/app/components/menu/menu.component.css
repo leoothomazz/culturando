@@ -25,15 +25,16 @@
 }
 
 .menu-nav ul li a {        
-    margin-right: 20px;
-    color: #00e7f9;
+    margin-right: 20px;    
     font-weight: bold;
+    cursor: pointer;
 }
 
 .link-border {
-    border: 1px solid #00e7f9;
+    border: 1px solid #e9531f;
+    color: #e9531f;
     border-radius: 5%;
-    padding: 10px 20px;    
+    padding: 10px 20px;   
 }
 
 .possuo-conta a {

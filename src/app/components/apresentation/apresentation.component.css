@@ -1,7 +1,7 @@
 .introducao {
     max-width: 100%;
     height: 633px;
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url("../../../assets/img/sinqia-fachada-2.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url("../../../assets/img/sinqia-fachada-2.jpg") no-repeat center;
     background-size: cover;    
     border-bottom: 8px solid #222;
 }
@@ -34,6 +34,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;    
     align-items: center;
+    border-bottom: 8px solid #222;
 }
 
 .introducao-apresentar h2 {
@@ -42,16 +43,46 @@ h1 {
 
 .introducao-apresentar p {
     font-size: 1.625rem;
-    margin-top: 20px;    
+    margin-top: 14px;    
 }
 
 .conteudo-escrito {    
     margin-right: 3%;
-    padding: 2%;
+    padding: 1%;
     text-shadow: 0.1em 0.1em 0.2em grey    
 }
 
 .conteudo-video {    
     height: auto;
     padding: 2%;
+}
+
+.direcione-conteudo {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid #222;
+}
+
+.direcione-conteudo h2 {
+    font-size: 3.125rem;    
+}
+
+.direcione-conteudo p {
+    font-size: 1.625rem;
+    margin-top: 14px;    
+}
+
+.conteudo-escrito-2 {        
+    padding: 1%;
+    text-shadow: 0.1em 0.1em 0.2em grey;        
+}
+
+.conteudo-video-2 {        
+    height: auto;
+    padding: 2%;     
+    margin-right: 3%;
+    margin-left: -8%;
 }
