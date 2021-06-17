@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.culturando-rodape {
+    padding: 2% 2% 1% 2%;
+    font-size: 1.125em;
+}
+
+.orange-letter {
+    color: #e9531f;
+}
